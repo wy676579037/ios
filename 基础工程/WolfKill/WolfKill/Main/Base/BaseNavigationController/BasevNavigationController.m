@@ -8,7 +8,7 @@
 
 #import "BasevNavigationController.h"
 
-#define ThemeColor [UIColor blueColor]
+#define ThemeColor [UIColor orangeColor]
 
 #define TextColor [UIColor colorWithRed:(67)/255.0 green:(177)/255.0 blue:(73)/255.0 alpha:1.0]
 
@@ -20,7 +20,6 @@
 
 + (void)initialize
 {
-    
     UINavigationBar *navBar = [UINavigationBar appearance];
     navBar.barTintColor = ThemeColor;
     
